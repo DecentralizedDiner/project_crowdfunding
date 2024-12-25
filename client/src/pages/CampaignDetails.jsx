@@ -68,7 +68,7 @@ const CampaignDetails = () => {
               </div>
               <div>
                 <h4 className="font-epilogue font-semibold text-[14px] text-white break-all">{state.owner}</h4>
-                <p className="mt-[4px] font-epilogue font-normal text-[12px] text-[#808191]">10 Campaigns</p>
+                <p className="mt-[4px] font-epilogue font-normal text-[12px] text-[#808191]">wallet adrees</p>
               </div>
             </div>
           </div>
@@ -107,7 +107,7 @@ const CampaignDetails = () => {
             <div className="mt-[30px]">
               <input 
                 type="number"
-                placeholder="ETH 0.1"
+                placeholder="MATIC 0.1"
                 step="0.01"
                 className="w-full py-[10px] sm:px-[20px] px-[15px] outline-none border-[1px] border-[#3a3a43] bg-transparent font-epilogue text-white text-[18px] leading-[30px] placeholder:text-[#4b5264] rounded-[10px]"
                 value={amount}
